@@ -1,0 +1,25 @@
+---
+date: "2016-11-05T21:05:33+05:30"
+title: "About Me"
+---
+
+<center>![](/img/self-portrait.png){ width=50% }</center>
+
+<br>
+
+I have always been curious about this world, and I love explorative research. 
+
+I was trained to be a mathematician and computer scientist. 
+While I still enjoy thinking about abstract theory, I'm now more interested in
+applying research skills to model real-world problems.
+In the past year, I've picked up a lot of data analysis tools and techniques along the
+way, and I'm excited to keep learning.
+
+When I'm not doing math, I spend time visiting art museums, painting watercolor,
+reading modernist fiction,
+cooking, and volunteering.
+
+It's hard to summerize my life on one page, but I tried to put together a
+timeline of what I've done since college academically.
+
+<center>![](/img/academic-highlights.png){ width=100% }</center>
