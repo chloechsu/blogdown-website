@@ -1,5 +1,5 @@
 baseurl = "https://example.org/"
-title = "Creative portfolio"
+title = "Chloe Hsu"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -10,12 +10,13 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  style = "sea"
+  description = "Chloe's projects and blogs"
+  copyright = "&copy;2017 Chloe Hsu"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "I am an undergraduate student at Caltech studying math, computer science, and English.",
+    "Currently, I'm looking for a data scientist position. In the past, I've worked as a quantitative analyst, math researcher, software engineer, and English-Chinese translator.",
+    "This site is home to my data science projects and modern art blog."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -29,7 +30,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "chhsu[at]caltech[dot]edu"
 
   # Nav links in the side bar
   [[params.navlinks]]
@@ -41,15 +42,25 @@ googleAnalytics = ""
   url = "about/"
 
   [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
+  name = "Projects"
+  url = "projects/"
+  
+  [[params.navlinks]]
+  name = "Publications"
+  url = "publications/"
+  
+  [[params.navlinks]]
+  name = "Organizations"
+  url = "organizations/"
+    
+  [[params.navlinks]]
+  name = "Blog"
+  url = "blog/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
+  email         = "chhsu@caltech.edu"
+  linkedin      = "https://www.linkedin.com/in/chingyunh/"
+  github        = "https://github.com/chloechsu"
+  
+  [permalinks]
+  post = "/:year/:month/:day/:slug/"
