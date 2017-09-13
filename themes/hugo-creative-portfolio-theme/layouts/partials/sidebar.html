@@ -9,6 +9,12 @@
       {{ range .Site.Params.navlinks }}
         <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
       {{ end }}
+
+      <!-- Added to accomodate absolute url menu items.-->
+      {{ range .Site.Params.absnavlinks }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+
     </ul>
     {{ partial "social_buttons_in_sidebar.html" . }}
 
