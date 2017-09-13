@@ -1,0 +1,38 @@
+---
+showonlyimage : false
+draft : false
+image : "img/projects/inpainting.png"
+date : "2017-05-30"
+title : "Image Inpainting from Gradient Statistics"
+description : "Fill holes in drawings with a gradient-based maximum likelihood estimator."
+type : "post"
+weight : 1
+---
+
+
+
+<!--more-->
+<ul>
+<li><a href="/pdf/inpainting.pdf">Detailed project report</a></li>
+<li><a href="https://github.com/chloechsu/inpainting">Source code on github</a></li>
+</ul>
+<p>This project fills holes in drawings according to an exponential distribution based on gradient magnitude and gradient angle. Gradient magnitude tells us how sharply the gray scale colors transition. Pairwise gradient angle represents shapes in the image.</p>
+<p>Given the probability distribution, simulated annealing approximately solves the maximum likelihood estimator. When the hole is small, the inpainting result looks reasonable to human eyes.</p>
+<div class="row">
+<center>
+<table>
+<tr>
+<td>
+<img src="/img/projects/inpainting_fig1.jpg" width="250">
+</td>
+<td>
+<img src="/img/projects/inpainting_fig2.jpg" width="250">
+</td>
+</tr>
+</table>
+Example: Before and after filling the hole.
+</center>
+<p>
+</p>
+</div>
+<p>However, simulated annealing is not fast enough to handle more than 20 pixels. For future improvement, the exponential model can be seen as a Markov Random Field on the gradient field. There is a well-known optimization algorithm called Max-product Belief Propagation.</p>
