@@ -10,9 +10,11 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "sea"
+  style = "blue"
   description = "Chloe's projects and blogs"
   copyright = "&copy;2017 Chloe Hsu"
+  author = "Chloe Hsu"
+  dateFormat = "2017/09/12"
   sidebarAbout = [
     "I am an undergraduate student at Caltech studying math, computer science, and English.",
     "Currently, I'm looking for a data scientist position. In the past, I've worked as a quantitative analyst, math researcher, software engineer, and English-Chinese translator.",
@@ -46,21 +48,26 @@ googleAnalytics = ""
   url = "projects/"
   
   [[params.navlinks]]
-  name = "Publications"
-  url = "publications/"
+  name = "Research"
+  url = "research/"
   
   [[params.navlinks]]
-  name = "Organizations"
-  url = "organizations/"
-    
+  name = "Conferences"
+  url = "conferences/"
+  
   [[params.navlinks]]
-  name = "Blog"
-  url = "blog/"
+  name = "Nonprofits"
+  url = "nonprofits/"
+    
+  [[params.absnavlinks]]
+  name = "Art Blog"
+  url = "https://chingyunhsu.wordpress.com/"
 
   [params.social]
   email         = "chhsu@caltech.edu"
   linkedin      = "https://www.linkedin.com/in/chingyunh/"
   github        = "https://github.com/chloechsu"
+  codeforces    = "http://codeforces.com/profile/ChingYunH" 
   
   [permalinks]
   post = "/:year/:month/:day/:slug/"
