@@ -1,0 +1,20 @@
+---
+title: "Research"
+date: 2017-09-12T23:06:54+08:00
+---
+### Publications
+* C. Hsu and C. Umans. [On Multidimensional and Monotone k-SUM.](http://users.cms.caltech.edu/~umans/papers/HU17a) _MFCS 2017._
+[Slides](/pdf/mfcs_slides.pdf)
+* C. Hsu and C. Umans. [A Fast Generalized DFT for Finite Groups of Lie
+Type.](https://arxiv.org/abs/1707.00349) _Submitted._
+* W. Ballinger, C. Hsu, W. Mackey, Y. Ni, T. Ochse, and F. Vafaee. [The Prism
+Manifold Realization Problem.](https://arxiv.org/abs/1612.04921)
+_Submitted._
+
+<br>
+
+### Unpublished
+* C. Hsu and L. Yang. [A Study on _Kalanchoe daigremontiana_'s Vivparity under
+Drought Stress.](/pdf/isweeep_paper.pdf) _Honorable Mention at I-SWEEEP._
+* C. Hsu. [Nineteenth- and Early-Twentieth- Century Women Mathematicians: Family Influence, Education, and Professional Mentorship.](/pdf/women-mathematicians.pdf) _Research project for class._
+
