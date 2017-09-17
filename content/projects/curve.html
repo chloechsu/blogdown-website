@@ -1,0 +1,37 @@
+---
+showonlyimage: false
+draft: false
+image: "img/projects/curve.png"
+date : "2017-03-10"
+title : "Curve Smoothing with Discrete Laplacian Filter"
+description : "
+Images also have ‘frequency’ signals, just like music, via a generalized Fourier
+Transform.
+With a discrete Laplacian filter on image frequencies,
+we can smooth noisy curves while preserving length and texture.
+"
+
+type : "post"
+weight : 0
+---
+
+
+
+<!--more-->
+<p>In computer graphics, meshes often contain undesirable noise. There are many existing methods to smooth noisy meshes, but they face two common challenges – numerical stability and texture preservation.</p>
+<p>Conformal curvature flow (see paper <a href="http://www.cs.cmu.edu/~kmcrane/Projects/ConformalWillmoreFlow/">Robust Fairing via Conformal Curvature Flow</a>) elegantly resolves both issues of numerical stability and texture preservation. Thanks to the numerical stability, in practice it runs 10x faster than traditional energy gradient descent methods.</p>
+<p>However, it creates a new problem: Conformal curvature flow could not distinguish large-scale features from little bumps.</p>
+<div class="figure">
+<img src="/img/projects/curve_nofilter.png" style="width:100.0%" />
+
+</div>
+<p>For example, on the bunny mesh, it shrinks the bunny ears at the same rate as it shrinks local noises. By the time that the bunny is smooth, its ears are gone as well.</p>
+<p>To maintain large-scale features, I designed an image filter based on the discrete Laplacian operator. The curvature flow is only applied on high frequency signals.</p>
+<div class="figure">
+<img src="/img/projects/curve_highpass.png" style="width:100.0%" />
+
+</div>
+<p>
+</p>
+<p>The rough idea is that images can also be seen to have ‘frequency’ signals, just like music, via a generalized Fourier Transform. The filter is able to distinguish bunny ears from noise because bunny ears have much lower frequency.</p>
+<p>For more details and results, see <a href="/pdf/conformal_curvature_flow.pdf">presentation slides</a> and <a href="https://github.com/chloechsu/curve-smoothing">source code on github</a>.</p>

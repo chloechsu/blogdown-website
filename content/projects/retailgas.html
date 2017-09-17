@@ -1,0 +1,112 @@
+---
+showonlyimage : false
+draft : false
+image : "img/projects/gas.png"
+date : "2017-08-30"
+title : "Retail Gas Price Prediction"
+description : "Predict weekly gas price trend to save money on gas. \n Compared
+three models: 1) multivariate rolling regression, 2) ARIMA, and 3) logistic regression."
+type : "post"
+weight : 1
+---
+
+
+
+<!--more-->
+<p>Consider the following scenario. Suppose I drive about the same distance every week and I have enough gas left in the tank for another week. If I know the gas price is going down next week, I could save some money by waiting till next week to fill up the tank.</p>
+<p>With this motivation, it’d be nice to predict retail gas price trends. Compared to crude oil, retail gas price changes more slowly (larger autocorrelation), so it might be easier to predict than crude oil.</p>
+<p>This project compares three models for predicting weekly trend of retail gas prices:</p>
+<ol style="list-style-type: decimal">
+<li><a href="/html/multivariate_rolling_regression.html">Multivariate Rolling Regression</a></li>
+<li><a href="/html/ARIMA_model.html">ARIMA</a></li>
+<li><a href="/html/logistic_regression.html">Logistic Regression</a></li>
+</ol>
+<p>
+</p>
+<p>The predictors include: crude oil and gasoline spot prices, as well as crude oil and gasoline stocks. All data are from <a href="https://www.eia.gov">U.S. Energy Information Administration</a>.</p>
+<p>Model Comparison: <img src="/img/projects/modelcomp.png" style="width:100.0%" /></p>
+<p>
+</p>
+<p>Logistic regression is the best model for classifying retail gas price trend. Under reasonable assumptions, an average driver would save about $65 in 2011-2016 in Los Angeles.</p>
+<p><strong>Table of Contents in Jupyter Notebooks</strong></p>
+<ol style="list-style-type: decimal">
+<li><a href="/html/multivariate_rolling_regression.html">Multivariate Rolling Regression Model for National Retail Gas Price</a></li>
+</ol>
+<ul>
+<li>Set-up</li>
+<li>Differentiation</li>
+<li>Predictors
+<ul>
+<li>Correlation with Predictors</li>
+<li>Select Predictors by LARS Path</li>
+<li>Correlation betweeen Predictors</li>
+<li>Selected Predictors</li>
+</ul></li>
+<li>Rolling Regression
+<ul>
+<li>Change of Regression Coefficients over time</li>
+</ul></li>
+<li>Test in Cross-Validation Period
+<ul>
+<li>Metric 1: Correlation of Predicted and Actual Log Return</li>
+<li>Metric 2: Prediction of Price Trend</li>
+</ul></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><a href="/html/ARIMA_model.html">ARIMA Model for National Retail Gas Price</a></li>
+</ol>
+<ul>
+<li>Set-up</li>
+<li>Differentiation</li>
+<li>Autocorrelation</li>
+<li>Partial Autocorrelation</li>
+<li>Model Choice: ARIMA(3,1,0)</li>
+<li>Fit Model</li>
+<li>Test in Cross-Validation Period
+<ul>
+<li>Metric 1: Correlation of Predicted and Actual Log Return</li>
+<li>Metric 2: Prediction of Price Trend</li>
+</ul></li>
+<li>Comparison to Multivariate Rolling Regression</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><a href="html/logistic_regression.html">Logistic Regression Model for National Retail Gas Price Trend</a></li>
+</ol>
+<ul>
+<li>Set-up</li>
+<li>Binary Classification Problem</li>
+<li>Features</li>
+<li>Logistic Regression Path</li>
+<li>l2 Regularization Parameter</li>
+<li>Test in Cross-Validation Period
+<ul>
+<li>Prediction</li>
+<li>Recall</li>
+<li>Accuracy</li>
+</ul></li>
+<li>Comparison to Multivariate Rolling Regression and ARIMA</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li><a href="/html/los_angeles.html">Saving Money from Predicting Los Angeles Gas Price Trend</a></li>
+</ol>
+<ul>
+<li>Set-up</li>
+<li>Correlation between National and Local Gas Price Move Direction</li>
+<li>Logistic Regression Model for Local Price Move
+<ul>
+<li>Features</li>
+<li>Logistic Regression Path</li>
+<li>l2 Regularization Parameter</li>
+</ul></li>
+<li>Test in Cross-Validation Period
+<ul>
+<li>Prediction</li>
+<li>Recall</li>
+<li>Accuracy</li>
+</ul></li>
+<li>How Much Money Can I Save?
+<ul>
+<li>Is it even possible to do much better?</li>
+</ul></li>
+</ul>
+<p><a href="https://github.com/chloechsu/retailgas">Python Jupyter notebooks on github</a></p>
