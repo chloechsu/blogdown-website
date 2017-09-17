@@ -4,3 +4,6 @@ section {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.content-column-content {
+  text-align: justify;
+}

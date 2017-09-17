@@ -1,7 +1,7 @@
 ---
 showonlyimage : false
 draft : false
-image : "img/projects/inpainting.png"
+image : "img/projects/paintinghole.jpg"
 date : "2017-05-30"
 title : "Image Inpainting from Gradient Statistics"
 description : "Fill holes in drawings with a gradient-based maximum likelihood estimator."

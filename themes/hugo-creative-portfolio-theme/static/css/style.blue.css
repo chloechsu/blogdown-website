@@ -882,6 +882,7 @@ a:active {
 }
 .box-masonry .box-masonry-text {
   padding: 15px 20px 15px;
+  text-align: left;
 }
 .box-masonry .box-masonry-text p {
   color: #999999;
