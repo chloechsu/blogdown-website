@@ -3,7 +3,7 @@
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="row">
     <div class="col-lg-8">
-      <div class="content-column-content" id="blog-listing-medium">
+        <div class="content-column-content">
          <h1>Projects</h1>
 
           {{ range (where .Data.Pages "Type" "post") }}
@@ -37,7 +37,6 @@
                        {{ if .Description }}
                           {{ .Description }}
                       {{ end }}</p>
-
                   </div>
               </div>
           </section>
