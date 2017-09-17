@@ -22,18 +22,20 @@ Pairwise gradient angle represents shapes in the image.
 Given the probability distribution, simulated annealing approximately solves the
 maximum likelihood estimator. When the hole is small, the inpainting result looks reasonable to human eyes.
 
-<div class="row">
+<center>
+<div class="row" style="width:80.0%">
 <center>
 <table> 
 <tr>
-<td><img src="/img/projects/inpainting_fig1.jpg" width="250"></td> 
-<td><img src="/img/projects/inpainting_fig2.jpg" width="250"></td> 
+<td><img src="/img/projects/inpainting_fig1.jpg" style="width:100.0%"></td> 
+<td><img src="/img/projects/inpainting_fig2.jpg" style="width:100.0%"></td> 
 </tr> 
 </table>
 Example: Before and after filling the hole.
 </center>
 <p></p>
 </div>
+</center>
 
-However, simulated annealing is not fast enough to handle more than 20 pixels. For future improvement, the exponential model can be seen as a Markov Random Field on the gradient field. There is a well-known optimization algorithm called Max-product Belief Propagation. 
+Simulated annealing is fast enough to handle around 20 pixels. Beyond that, for future improvement, the exponential model can be seen as a Markov Random Field on the gradient field. There is a well-known optimization algorithm called Max-Product Belief Propagation. 
 

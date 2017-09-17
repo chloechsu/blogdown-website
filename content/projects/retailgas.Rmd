@@ -1,7 +1,7 @@
 ---
 showonlyimage : false
 draft : false
-image : "img/projects/gas.png"
+image : "img/projects/gas.jpg"
 date : "2017-08-30"
 title : "Retail Gas Price Prediction"
 description : "Predict weekly gas price trend to save money on gas. \n Compared
