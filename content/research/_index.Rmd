@@ -14,6 +14,7 @@ _Submitted._
 <br>
 
 ### Unpublished
+* C. Hsu and P. Rasmussen. [What does the Cauchy distribution "look like": Metric, Curvature and Geodesics on its Statistical Manifold.](/pdf/cauchy_distribution.pdf) _Awarded the Morgan Ward Prize._
 * C. Hsu and L. Yang. [A Study on _Kalanchoe daigremontiana_'s Vivparity under
 Drought Stress.](/pdf/isweeep_paper.pdf) _Honorable Mention at I-SWEEEP._
 * C. Hsu. [Nineteenth- and Early-Twentieth- Century Women Mathematicians: Family Influence, Education, and Professional Mentorship.](/pdf/women-mathematicians.pdf) _Research project for class._
