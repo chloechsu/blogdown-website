@@ -2,8 +2,8 @@
 showonlyimage = false
 draft = false
 image = "img/projects/flora_sample.png"
-date = "2014-06-13"
-title = "EFZ High School Campus Flora"
+date = "2017-09-05"
+title = "EFZ Campus Flora"
 description = "A catalog of 100+ plants with pictures and automatically crawled information."
 type = "post"
 weight = 0
@@ -18,4 +18,4 @@ design for a plant catalog in InDesign.
 
 <!--more-->
 
-<object width="100%" height="400" data="/pdf/flora.pdf">object>
+<object width="100%" height="500" data="/pdf/flora.pdf">object>

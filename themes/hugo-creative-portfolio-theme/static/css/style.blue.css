@@ -674,10 +674,10 @@ COPYRIGHT
 */
 .copyright {
   color: #999999;
-  font-size: 13px;
+  font-size: 11px;
 }
 .copyright p.credit {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .copyright p.credit a {
   color: #999999;

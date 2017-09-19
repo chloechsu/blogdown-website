@@ -16,9 +16,8 @@ googleAnalytics = ""
   author = "Chloe Hsu"
   dateFormat = "2017/09/12"
   sidebarAbout = [
-    "I am an undergraduate student at Caltech studying math, computer science, and English.",
-    "Currently, I'm looking for a data scientist position. In the past, I've worked as a quantitative analyst, math researcher, software engineer, and English-Chinese translator.",
-    "This site is home to my data science projects and modern art blog."
+    "Hi, I'm Chloe. This site is home to my data science and graphics projects.",
+    "If you like geometry and abstract art, check out my modern art blog!"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a

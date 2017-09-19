@@ -2,9 +2,9 @@
 showonlyimage : false
 draft : false
 image : "img/projects/paintinghole.jpg"
-date : "2017-05-30"
+date : "2017-09-08"
 title : "Image Inpainting from Gradient Statistics"
-description : "Fill holes in drawings with a gradient-based maximum likelihood estimator."
+description : "Can we guess shapes and automatically fill holes in drawings? This program constructs a probability distribution of gradients, and fill holes with simulated annealing."
 type : "post"
 weight : 1
 ---

@@ -9,7 +9,9 @@ I learned a lot from the conferences talks and made some really good friends. A 
 ### For Women
 
 * [Women in Data Science](http://www.widsconference.org/): A series of events held at 20+ locations worldwide.
-* [IAS Women and Mathematics Program](http://www.math.ias.edu/wam): A 2-week conference for women in math at all levels. A great mix of talks, mini courses, and volunteering activities.
+* [IAS Women and Mathematics Program](http://www.math.ias.edu/wam): A 2-week
+conference for women in math at all levels. A great mix of talks, mini
+courses, and volunteering activities. Plus, you get to run a 5k!
 * [Graduate Research Opportunities for Women (GROW)](http://www.math.northwestern.edu/events/conferences/graduate-research-opportunities-for-women.html): A 2-day conference for undergraduate women interested in graduate math research. 
 
 ### General

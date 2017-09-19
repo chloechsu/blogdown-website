@@ -2,17 +2,17 @@
 showonlyimage: false
 draft: false
 image: "img/projects/curve.png"
-date : "2017-03-10"
+date : "2017-09-09"
 title : "Curve Smoothing with Discrete Laplacian Filter"
 description : "
-Images also have ‘frequency’ signals, just like music, via a generalized Fourier
-Transform.
-With a discrete Laplacian filter on image frequencies,
-we can smooth noisy curves while preserving length and texture.
+Images also have ‘frequency’ signals, just like music.
+The discrete Laplacian is a generalization of Fourier
+transform on images.
+This project designs a discrete Laplacian filter to smooth noisy curves while preserving length and texture.
 "
 
 type : "post"
-weight : 0
+weight : 1
 ---
 
 
